@@ -11,7 +11,7 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -42,3 +42,104 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  font-size: 16px;
+  max-width: 320px;
+  margin: auto;
+  font-family: 'Libre Franklin';
+  background-color: rgb(235, 236, 230);
+}
+
+nav {
+  background-color: #fff;
+  padding: 20px 65px;
+  justify-content: space-between;
+}
+
+nav a {
+  padding: 0 5px;
+}
+
+img {
+  margin: 0;
+}
+
+.presentation {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.recipe-day {
+  background-color: rgb(255, 17, 0);
+  color: #fff; 
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0;
+  margin: 0 90px 15px;
+}
+
+h1 {
+  font-family: 'Sorts Mill Goudy';
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 10px 20px 20px;
+}
+
+.introduction {
+  font-family: 'Sorts Mill Goudy';
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 0 15px;
+}
+
+.jerelleguy {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 105px 20px;
+}
+
+.recipes-today {
+  background-color: rgb(235, 236, 230);
+}
+
+h2 {
+  font-family: 'Sorts Mill Goudy';
+  text-decoration: underline;
+  padding: 35px 15px 0 15px;
+  background-color: rgb(235, 236, 230);
+}
+
+figcaption {
+  background-color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.2;
+  margin: 0 15px;
+  padding: 20px 25px;
+}
+
+figure img {
+  margin: 0 15px;
+  width: 90%;
+  margin-top: 15px;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 35px;
+  padding: 30px 20px;
+  line-height: 1.2;
+}
+
+.more-learn {
+  font-family: 'Sorts Mill Goudy';
+  font-size: 20px;
+  line-height: 1.2;
+}
