@@ -11,7 +11,7 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -42,3 +42,26 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+html {
+  font-size: 16px;
+  max-width: 320px;
+  margin: auto;
+  font-family: 'Libre Franklin';
+  background-color: rgb(181, 196, 181);
+}
+
+nav {
+  background-color: #fff;
+  padding: 20px 65px;
+  justify-content: space-between;
+}
+
+nav a {
+  padding: 0 5px;
+}
+
+img {
+  margin: 0;
+}
+
