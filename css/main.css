@@ -73,7 +73,7 @@ h3 {
 
 .articles{
   background: #ebede8;
-  padding: 20px 15px;
+  padding: 30px 15px;
 }
 
 .articles h2 {
@@ -83,6 +83,14 @@ h3 {
   line-height: 1.2;
 }
 
+.title-articles {
+  border-bottom: black solid 2px;
+}
+
+.article-filipino {
+  padding-top: 10px;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -90,6 +98,45 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 30px 15px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-info a {
+  text-decoration: underline;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+footer h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.article-header {
+  padding: 0px;
+  margin-top: 15px;
+}
+
+.article-footer {
+  background: white;
+  color: black;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  padding: 20px;
 }
 
 a {
