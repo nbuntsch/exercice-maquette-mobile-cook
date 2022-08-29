@@ -42,3 +42,24 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+header div{
+  padding: 20px 50px 20px 50px;
+  font-family: 'Libre Franklin', sans-serif;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around; 
+}
+h4 {
+  margin: 10px 80px 10px 80px;
+  text-align: center;
+  font-family: 'Libre Franklin';
+font-size:11px;
+font-weight:700;
+color: white;
+background-color: red;
+border-radius: 50px;
+}
+h1 {
+  font-family: 'Sorts Mill Goudy', serif;
+}
