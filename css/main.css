@@ -10,6 +10,7 @@
 // ==================================== */
 
 * {
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -20,6 +21,8 @@ html {
 }
 
 body {
+  max-width: 320px;
+  margin: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
