@@ -3,6 +3,9 @@
 // ==================================== */
 
 :root {
+  --Libre-Franklin: 'Libre Franklin', sans-serif;
+  --sortsmill:'Sorts Mill Goudy', serif;
+  --light-green : #EBEDE7;
 }
 
 /* ====================================
@@ -26,17 +29,107 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  background-color: white;
 }
 
 a {
   color: inherit;
+  font-family: var(--Libre-Franklin);
+  font-size: 16px;
+  margin: 10px 15px 15px 15px;
+  padding: 5px 10px 5px 10px;
+ 
+  
+}
+button {
+  background-color: red;
+  color: white;
+  font-family: var(--Libre-Franklin);
+  font-size: 11px;
+  font-weight: 700;
+  border: none;
+  padding: 2px 13px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 15px 70px;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
+h1 {
+  font-family: var(--sortsmill);
+  font-size: 24px;
+  line-height: 1.2;
+  text-align: center;
+}
+h2 {
+  font-family: var(--sortsmill);
+  font-size: 20px;
+  text-align: left;
+  
+}
+.comment {
+  font-family: var(--sortsmill);
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 700;
+}
+p {
+  font-family: var(--Libre-Franklin);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 15px;
+  text-align: center;
+
+}
+.article {
+  background-color: var(--light-green);
+  padding:25px ;
+}
 img,
 video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+}
+footer {
+  background-color: black;
+  color: white;
+  font-family: var(--Libre-Franklin);
+ margin: 0;
+  padding: 15px 0 20px 0;
+ 
+}
+.footer {
+  padding-left: 10px;
+  font-family: var(--sortsmill);
+  font-size: 20px;
+  text-align: left;
+  margin: 10px 15px 0;
+}
+.site {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 15px 10px;
+}
+figure {
+  margin: 0%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+ 
+}
+figcaption {
+  padding: 14px 10px;
+  text-align: center;
+  font-family: var(--Libre-Franklin);
+  font-size: 20px;
+  background-color: white;
+  padding: 10px;
+}
+.photo {
+  padding: 10px 0;
 }
 
 /* ====================================
