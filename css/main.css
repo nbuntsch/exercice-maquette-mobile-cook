@@ -19,6 +19,70 @@ html {
   font-size: 16px;
 }
 
+header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+header a {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+  padding: 15px 60px;
+}
+
+.recipe-button {
+  background: #e33d26;
+  color: white;
+  margin: 15px 90px;
+  text-align: center;
+  font-size: 11px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Sorts Mill Goudy', serif;
+  margin: 0px 15px;
+  line-height: 1.2;
+  padding-bottom: 15px;
+}
+
+.food-fact {
+  font-size: 16px;
+  font-family: 'Sorts Mill Goudy', serif;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.articles{
+  background: #ebede8;
+  padding: 20px 15px;
+}
+
+.articles h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
