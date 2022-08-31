@@ -56,11 +56,20 @@ header img{
 
 nav{
   margin: 0 0 20px;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 h1{
   margin: 15px 0 18px;
   font-size: 24px;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+h2{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 h3{
@@ -73,9 +82,11 @@ h3{
   max-width: 140px;
   margin: auto;
   color: #ffffff;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 p{
   font-size: 17px;
   margin-bottom: 22px;
+  font-family: 'Sorts Mill Goudy', serif;
 }
