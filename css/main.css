@@ -57,3 +57,7 @@ nav {
   text-align: center;
   margin: 22px 0 22px 0;
 }
+
+img {
+border-top: 1px solid #CBCDCC;
+}
