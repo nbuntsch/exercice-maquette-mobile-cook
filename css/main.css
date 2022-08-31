@@ -10,13 +10,14 @@ font-family: 'Sorts Mill Goudy', serif;
 // ==================================== */
 
 :root {
-  --main-color: ;
-  --secondary-color: ;
-  --main-background-color: ;
-  --secondary-background-color: ;
-  --third-background-color: ;
-  --main-font: 'Libre Franklin', sans-serif;
-  --secondary-font: 'Sorts Mill Goudy', serif;
+  --main-color: #000;
+  --secondary-color: #fff;
+  --main-background-color: #fff;
+  --secondary-background-color: #ebede7;
+  --button-background-color: red;
+  --third-background-color: #000;
+  --main-font: "Libre Franklin", sans-serif;
+  --secondary-font: "Sorts Mill Goudy", serif;
 }
 
 /* ====================================
@@ -27,7 +28,6 @@ font-family: 'Sorts Mill Goudy', serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
 }
 
 html {
@@ -44,6 +44,8 @@ body {
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.5rem;
+  font-family: var(--main-font);
+  text-align: center;
 }
 
 a {
@@ -64,9 +66,7 @@ video {
 /* header ↓ */
 
 nav {
-  font-family: var(--main-font);
   font-size: 16px;
-  text-align: center;
   margin: 17px;
   display: flex;
   justify-content: space-around;
@@ -74,5 +74,81 @@ nav {
 }
 
 /* main ↓ */
+/* main/.introduction ↓ */
+/* main/.introduction/button ↓ */
+
+.button {
+  color: var(--secondary-color);
+  background-color: var(--button-background-color);
+  font-size: 11px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 40px;
+  margin: 0 72px;
+  display: flex;
+  justify-content: center;
+  line-height: 1.5;
+}
+
+/* main/.introduction ↓ */
+
+.introduction {
+  margin: 17px;
+}
+
+.introduction h1 {
+  font-family: var(--secondary-font);
+  line-height: 1.2;
+  margin: 14px 0;
+  font-weight: normal;
+}
+
+.introduction p {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 13px 0;
+}
+
+.introduction strong {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* main/.products ↓ */
+
+.products {
+  padding: 15px;
+  background-color: var(--secondary-background-color);
+}
+
+.products h1 {
+  font-family: var(--secondary-font);
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  font-weight: normal;
+}
+
+.products hr {
+  border: solid #000 1px;
+}
+
+/* main/.products/meal ↓ */
+
+.meal {
+  background-color: var(--main-background-color);
+  border: solid #cacaca 0.5px;
+  margin: 10px 0;
+}
+
+.meal figcaption {
+  font-size: 20px;
+  line-height: 1.2;
+  margin : 10px;
+}
 
 /* footer ↓ */
