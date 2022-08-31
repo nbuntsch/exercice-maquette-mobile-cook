@@ -49,6 +49,41 @@ body {
   font-size: 16px;
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Sorts Mill Goudy';
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Sorts Mill Goudy';
+  line-height: 1.2;
+}
+
+caption {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.daily-reciepe {
+  text-align: center;
+}
+
 .tag {
   font-size: 11px;
   font-weight: 700;
@@ -61,6 +96,7 @@ body {
   padding: 2px, 8px;
 }
 
-.daily-reciepe {
-  text-align: center;
+.autor {
+  font-weight: 700;
+  text-transform: uppercase;
 }
