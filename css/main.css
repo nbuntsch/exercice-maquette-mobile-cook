@@ -9,6 +9,9 @@
 // reset rules
 // ==================================== */
 
+/* font-family: sorts-mill-goudy, serif; */
+/* font-family: libre-franklin, sans-serif; */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,6 +29,12 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+header {
+  font-family: libre-franklin, sans-serif;
+  font-size: 16px;
+  display: flex;
 }
 
 a {
