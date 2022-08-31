@@ -109,7 +109,7 @@ h3{
   text-transform: uppercase;
   padding: 4px 8px;
   background-color: #e33d26;
-  border-radius: 150px;
+  border-radius: 18px;
   text-align: center;
   max-width: 140px;
   margin: auto;
@@ -124,5 +124,5 @@ p{
 }
 
 hr{
-  height: 2px;
+  border: 1px solid black;
 }
