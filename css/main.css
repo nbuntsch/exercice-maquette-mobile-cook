@@ -42,3 +42,18 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+
+}
+
+a {
+  font-family: sans-serif;
+  color: black;
+  text-decoration: underline;
+}
+
+nav {
+  text-align: center;
+  margin: 22px 0 22px 0;
+}
