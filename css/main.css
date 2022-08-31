@@ -152,3 +152,21 @@ nav {
 }
 
 /* footer ↓ */
+
+footer {
+  background-color: var(--third-background-color);
+  color: var(--secondary-color);
+  text-align: left;
+  padding:25px 15px;
+}
+
+footer h2 {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+footer a {
+  font-size: 16px;
+  display: flex;
+}
