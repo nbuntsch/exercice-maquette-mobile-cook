@@ -43,3 +43,24 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  font-family: 'Libre Franklin';
+  font-size: 16px;
+}
+
+.tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  background-color: #e33d26;
+  width: 140px;
+  border-radius: 18px;
+  margin: auto;
+  padding: 2px, 8px;
+}
+
+.daily-reciepe {
+  text-align: center;
+}
