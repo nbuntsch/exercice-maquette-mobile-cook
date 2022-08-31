@@ -46,6 +46,7 @@ header img {
 h1 {
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 24px;
+  font-weight: 400;
   line-height: 1.2;
   margin: 20px;
 }
@@ -67,6 +68,35 @@ h3 {
 div {
   background-color: #f5f4f4;
   padding: 20px 15px;
+}
+
+h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  font-weight: 700px;
+  line-height: 1.2;
+  text-align: start;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+  margin-bottom: 10px;
+}
+
+figure {
+  background-color: white;
+  padding-top: 0;
+}
+
+figcaption {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 
