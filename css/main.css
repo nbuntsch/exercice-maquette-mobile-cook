@@ -49,13 +49,12 @@ html{
 
 body {
   font-family: 'Libre Franklin', sans-serif;
-
 }
 
 a {
   color: black;
   text-decoration: underline;
-  fonz-size: 16px;
+  font-size: 16px;
 }
 
 nav {
@@ -100,4 +99,21 @@ article p {
   color:black;
   font-size: 16px;
   font-weight: 700;
+}
+
+.more-recipes {
+  background:#EBEDE8;
+  padding: 0 15px;
+}
+
+.more-recipes h1{
+  font-family: 'Sorts Mill Goudy', serif; 
+  font-size: 20px;
+  line-height: 1.2;
+  padding-top: 30px;
+}
+
+hr{
+  border: solid 1px black;
+  margin-bottom: 15px;
 }
