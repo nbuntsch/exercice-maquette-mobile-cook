@@ -34,8 +34,16 @@ body {
 header {
   font-family: libre-franklin, sans-serif;
   font-size: 16px;
-  display: flex;
 }
+
+.page-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 50px 0px;
+
+}
+
 
 a {
   color: inherit;
