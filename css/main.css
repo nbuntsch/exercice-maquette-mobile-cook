@@ -15,8 +15,8 @@ font-family: 'Sorts Mill Goudy', serif;
   --main-background-color: ;
   --secondary-background-color: ;
   --third-background-color: ;
-  --main-font: ;
-  --secondary-font: ;
+  --main-font: 'Libre Franklin', sans-serif;
+  --secondary-font: 'Sorts Mill Goudy', serif;
 }
 
 /* ====================================
