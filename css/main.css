@@ -2,15 +2,9 @@
 // css variables
 // ==================================== */
 
-/* :root {
-} */
-
 /* ====================================
 // reset rules
 // ==================================== */
-
-/* font-family: 'Libre Franklin', sans-serif;
-font-family: 'Sorts Mill Goudy', serif; */
 
 html {
   text-align: center;
@@ -28,8 +22,17 @@ nav {
   font-size: 16px;
 }
 
+nav a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 header img {
   margin-bottom: 20px;
+}
+
+img {
+  display: block;
 }
 
 .button {
@@ -88,6 +91,8 @@ hr {
 figure {
   background-color: white;
   padding-top: 0;
+  border: 1px solid lightgray;
+  margin-bottom: 15px;
 }
 
 figcaption {
@@ -99,6 +104,17 @@ figcaption {
   margin-bottom: 15px;
 }
 
+footer {
+  color: white;
+  background-color: black;
+  text-align: start;
+  padding: 20px 15px;
+}
+
+footer a {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+}
 
 * {
   box-sizing: border-box;
