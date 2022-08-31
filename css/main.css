@@ -2,8 +2,7 @@
 // css variables
 // ==================================== */
 
-:root {
-}
+
 
 /* ====================================
 // reset rules
@@ -36,9 +35,130 @@ img,
 video {
   max-inline-size: 100%;
   block-size: auto;
-  vertical-align: text-top;
 }
 
 /* ====================================
 // base rules
 // ==================================== */
+
+/*  font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Sorts Mill Goudy', serif; */
+
+/* header */
+
+html {
+  width: 320px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+  height: 60px;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 60px;
+}
+
+header a {
+  font-size: 16px;
+}
+
+/* main */
+
+.main-contenent {
+  text-align: center;
+}
+
+.ads {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 15px;
+  background-color: red;
+  border-radius: 20px;
+  margin-top: 20px;
+  color: white;
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 10px 30px 0;
+}
+
+p {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+.autor {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.article {
+  background-color: #ebede8;
+  padding: 15px 15px 30px;
+  margin-top: 32px;
+}
+
+h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 13px;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+figure {
+  border: 1px solid gray;
+  margin-top: 15px;
+}
+
+figcaption {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 84px;
+  background-color: white;
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 0 15px;
+  height: 150px;
+}
+
+footer h2 {
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
