@@ -89,6 +89,11 @@ header nav {
   padding: 20px 70px;
 }
 
+article {
+  background-color: white;
+  margin-bottom: 15px;
+}
+
 caption {
   font-size: 20px;
   line-height: 1.2;
