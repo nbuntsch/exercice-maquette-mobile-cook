@@ -79,6 +79,7 @@ h3 {
 p {
   font-family: "Sorts Mill Goudy";
   line-height: 1.2;
+  margin: 10px 0;
 }
 
 header nav {
@@ -91,6 +92,11 @@ header nav {
 caption {
   font-size: 20px;
   line-height: 1.2;
+}
+
+hr {
+  border: 1px solid black;
+  margin-bottom: 15px;
 }
 
 .daily-recipe {
