@@ -2,12 +2,119 @@
 // css variables
 // ==================================== */
 
-:root {
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
+
+html {
+  text-align: center;
+}
+
+body {
+  max-width: 320px;
+  margin: auto;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+}
+
+nav a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+header img {
+  margin-bottom: 20px;
+}
+
+img {
+  display: block;
+}
+
+.button {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 15px;
+  color: white;
+  padding: 2px 10px;
+  background-color: red;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 20px;
+}
+
+p {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 20px;  
+}
+
+h3 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+div {
+  background-color: #f5f4f4;
+  padding: 20px 15px;
+}
+
+h2 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 20px;
+  font-weight: 700px;
+  line-height: 1.2;
+  text-align: start;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+  margin-bottom: 10px;
+}
+
+figure {
+  background-color: white;
+  padding-top: 0;
+  border: 1px solid lightgray;
+  margin-bottom: 15px;
+}
+
+figcaption {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: start;
+  padding: 20px 15px;
+}
+
+footer a {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+}
 
 * {
   box-sizing: border-box;
