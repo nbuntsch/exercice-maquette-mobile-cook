@@ -17,7 +17,6 @@
 
 html {
   font-size: 16px;
-  width: 320px;
 }
 
 body {
@@ -45,14 +44,20 @@ video {
 // ==================================== */
 
 body {
-  font-family: 'Libre Franklin';
+  font-family: "Libre Franklin";
   font-size: 16px;
+  width: 320px;
+  margin: auto;
+}
+
+main {
+  margin: 0 15px;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Sorts Mill Goudy';
+  font-family: "Sorts Mill Goudy";
   line-height: 1.2;
 }
 
@@ -71,7 +76,7 @@ h3 {
 }
 
 p {
-  font-family: 'Sorts Mill Goudy';
+  font-family: "Sorts Mill Goudy";
   line-height: 1.2;
 }
 
