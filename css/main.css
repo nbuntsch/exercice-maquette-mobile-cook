@@ -37,6 +37,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  display: block;
 }
 
 /* ====================================
@@ -101,7 +102,7 @@ header nav {
 
 article {
   background-color: white;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 caption {
@@ -111,7 +112,6 @@ caption {
 
 hr {
   border: 1px solid black;
-  margin-bottom: 15px;
 }
 
 footer a {
@@ -129,6 +129,10 @@ footer a {
 .week-recipe {
   background-color: #ebede8;
   padding: 30px 15px;
+}
+
+.week-recipe article {
+  border: solid 1px #cecece;
 }
 
 .tag {
