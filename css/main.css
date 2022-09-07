@@ -93,11 +93,15 @@ caption {
   line-height: 1.2;
 }
 
-.daily-reciepe {
+.daily-recipe {
   text-align: center;
 }
 
-.week-reciepe {
+.daily-recipe-text {
+  padding: 0 15px 30px;
+}
+
+.week-recipe {
   background-color: #ebede8;
   padding: 30px 15px;
 }
