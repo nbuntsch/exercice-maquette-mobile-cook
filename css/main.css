@@ -111,3 +111,7 @@ h1 {
 .weekly-recipe {
   padding: 30px 15px;
 }
+
+.daily {
+  font-size: 16px;
+}
