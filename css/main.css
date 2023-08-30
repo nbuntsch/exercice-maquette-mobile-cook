@@ -57,6 +57,10 @@ img {
   max-width: 100%;
 }
 
+header {
+  border-bottom: solid rgb(198, 198, 198) 1px;
+}
+
 header a {
   font-family: "Libre Franklin";
   font-size: 16px;
