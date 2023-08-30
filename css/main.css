@@ -43,10 +43,13 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
-
+html {
+  background-color: blueviolet;
+}
 body {
   max-width: 320px;
   margin: auto;
+  background-color: white;
 }
 
 img {
