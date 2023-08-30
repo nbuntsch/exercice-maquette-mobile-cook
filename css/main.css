@@ -53,3 +53,8 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header a {
+  font-family: "Libre Franklin";
+  font-size: 16px;
+}
