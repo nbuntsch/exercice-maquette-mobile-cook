@@ -43,3 +43,13 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  max-width: 320px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
