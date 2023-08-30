@@ -60,6 +60,7 @@ img {
 header a {
   font-family: "Libre Franklin";
   font-size: 16px;
+  margin: 20px 0;
 }
 
 header .container {
