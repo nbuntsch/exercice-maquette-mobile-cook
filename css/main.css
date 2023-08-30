@@ -103,3 +103,11 @@ h1 {
   font-family: "Sorts Mill Goudy";
   line-height: 1.2;
 }
+
+.daily {
+  padding: 0 15px 20px;
+}
+
+.weekly-recipe {
+  padding: 30px 15px;
+}
