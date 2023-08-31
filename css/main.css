@@ -50,7 +50,7 @@ body {
   max-width: 320px;
   margin: auto;
   background-color: white;
-  font-family: "Libre Franklin";
+  font-family: "Libre Franklin", sans-serif;
 }
 
 img {
@@ -100,7 +100,7 @@ h1 {
 
 .daily-recipe,
 .weekly-recipe h2 {
-  font-family: "Sorts Mill Goudy";
+  font-family: "Sorts Mill Goudy", serif;
   line-height: 1.2;
 }
 
