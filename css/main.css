@@ -117,6 +117,7 @@ h1 {
 .weekly-recipe {
   padding: 30px 15px;
   background-color: rgb(234, 237, 231);
+  font-size: 20px;
 }
 
 .autor {
@@ -134,4 +135,8 @@ hr {
   background-color: white;
   font-weight: 400;
   margin: 14px;
+}
+
+h3 {
+  font-weight: 400;
 }
