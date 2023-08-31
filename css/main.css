@@ -123,3 +123,9 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+hr {
+  height: 2px;
+  width: auto;
+  margin-bottom: 14px;
+}
