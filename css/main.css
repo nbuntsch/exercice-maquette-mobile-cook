@@ -101,7 +101,8 @@ h1 {
 }
 
 .daily-recipe,
-.weekly-recipe h2 {
+.weekly-recipe h2,
+footer h2 {
   font-family: "Sorts Mill Goudy", serif;
   line-height: 1.2;
 }
@@ -149,4 +150,20 @@ h3 {
 .weekly-recipe h3 {
   padding: 10px;
   font-size: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px 10px;
+}
+
+footer h2 {
+  font-size: 20px;
+}
+
+footer a {
+  font-size: 16px;
+  display: block;
+  margin-bottom: -5px;
 }
